@@ -1,0 +1,7 @@
+section { 
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 2em auto;
+    gap: 2em;
+}

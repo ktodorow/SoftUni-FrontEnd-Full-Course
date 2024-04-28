@@ -1,0 +1,6 @@
+Resolution: 1980x1080
+Scale: 125%;
+
+Tested on: 
+Resolution: 1980x1080
+Scale: 100%;

@@ -1,0 +1,49 @@
+.site-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+}
+
+body {
+    padding: 2em
+}
+
+p, ul {
+    padding-bottom: 1.5em;
+}
+
+.align-right {
+    float: right;
+    margin: 0 1em 0.5em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 0.5em 0;
+}
+
+img {
+    border: 3px solid black;    
+    padding: 0.5em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.site-aside {
+    margin-left: 1em;
+}
+
+.navigation-bar a,
+.site-aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.site-aside li {
+    margin-left: 3em;
+}

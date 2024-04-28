@@ -1,0 +1,17 @@
+body { 
+    padding: 0 2em;
+    background-color: rgb(231, 231, 231);
+}
+
+.site {
+    max-width: 46.3em;
+    margin: 0 auto;
+    background-color: rgb(204, 204, 204);
+}
+
+.site-header,
+.site-content,
+.site-footer {
+    padding: 2em;
+}
+

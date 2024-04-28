@@ -1,0 +1,26 @@
+.wrapper {
+    width: 451px;
+    height: 540px;
+    border: 8px solid rgb(224, 224, 224);
+    padding: 1em;
+    font-size: 19px;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    width: 250px;
+    padding: 8px 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #d5384d;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+button:hover
+{
+    background-color: #fd596f;
+}
+

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 "Karla";
+}
+
+body {
+    background: rgba(0, 0, 0, 0.3) url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-blend-mode: darken;
+    font: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.site-section.banner h1 {
+    font-size: 90px;
+    font-family: "Cormorant Infant";
+    margin-bottom: 1em;
+}
+
+.site-section.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+}
+
+.site-section.banner p {
+    max-width: 39.6em;
+    margin: 0 auto;
+}
+
+.site-section.banner .container {
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.site-section {
+    padding: 2em;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul {
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+    margin-right: 5em;
+}
+
+.site-header nav li {
+    list-style: none outside;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-section.site-info1,
+.site-section.site-info2{
+    background-color: #E14747;
+    color: #fff;
+}
+
+.site-section.site-info1 {
+    display: flex;
+    text-align: center;
+}
+
+.site-section.site-info1 h4 {
+    margin: 1em 0 2em;
+}
+
+.site-section.site-info1 p {
+    margin-bottom: 1em;
+}
+
+
+.site-section.site-info2 {
+    display: flex;
+    text-align: center;
+}
+
+.site-section.site-info2 h4 {
+    font-size: 3.2em;
+    font-family: "Cormorant Infant";
+    margin: 1.2em 0;
+}
+
+.site-section.site-info2 p {
+    font-size: 16px;
+    margin-bottom: 5em;
+}
+
+.site-section.site-info2 a {
+    font-size: 14px;
+    padding: 1em;
+    background-color: #FAD87A;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.site-section.site-content1,
+.site-section.site-content2{
+    background-color: #F8F0E9;
+    color: #352B2A;
+}
+
+.site-section.site-content1 .content {
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 40px;
+    padding: 1em 0 1em;
+}
+
+.site-section.site-content1 .site-content-title {
+    font-size: 14px;
+    color: black;
+}
+
+.site-section.site-content2 .container {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.site-section.site-content2 h2 { 
+    font-family: "Cormorant Infant";
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 1em;
+}
+
+.site-section.site-content2 p { 
+    text-align: left;
+    margin-bottom: 5em;
+}
+
+.site-section.site-content2 .media {
+    margin: 1em 0 3em;
+}
+
+.site-section.site-content2 .read-more-button {
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: -180px;
+}
+
+
+.site-section.site-content2 .buttons {
+    position: relative;
+}
+
+.site-section.site-content2 .read-more-button,
+.site-section.site-content2 .read-articles-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0.3em 1.5em;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.site-footer a,
+.site-title a {
+    display: block;
+    width: 110px;
+    height: 62px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-title a {
+    margin: 1em 3em;
+}
+
+
+.site-footer a {
+    margin: 1em 0 2em;
+}
+
+.site-footer a {
+    width: 73px;
+    height: 42px;
+}
+
+.site-footer {
+    background-color: #352B2A;
+    color: white
+}
+
+.site-footer blockquote {
+    color: #76615A
+}
+
+.site-footer p {
+    width: 480px;
+    margin-bottom: 1em;
+}

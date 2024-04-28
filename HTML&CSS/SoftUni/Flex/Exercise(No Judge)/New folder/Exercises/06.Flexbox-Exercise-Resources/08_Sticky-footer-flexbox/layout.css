@@ -1,0 +1,24 @@
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.site-header {
+    flex: 0 0 100%;
+}
+ 
+.site-content {
+    flex: 1 0 97%;
+}
+
+.site-footer {
+    flex: 0 0 100%;
+    color: white;
+}

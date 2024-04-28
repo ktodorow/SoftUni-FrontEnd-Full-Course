@@ -1,0 +1,40 @@
+.site-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+}
+
+.site-header,
+.site-content {
+    padding-left: 2em;
+}
+
+.site-content {
+    margin-top: 1em;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3em;
+    background-color: rgb(102, 102, 102);
+}
+
+
+.site-footer p {
+    padding-left: 2em;
+
+}
+
+
+p {
+    line-height: 2em;
+    padding-bottom: 1em;
+}
